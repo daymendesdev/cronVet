@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(206, 247, 233);
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    padding: 1em;
+    background-color: rgb(223, 250, 241);
+}
+
+p{
+    line-height: 2em;
+}
+
+legend{
+    text-transform: uppercase;
+}
+
+form input{
+    padding: 0.5em;
+    display: flex;
+    width: 30em;
+    margin-bottom: 1em;
+    flex-direction: column;
+}
+
+input:hover{
+    background-color: rgb(236, 231, 225);
+}
+
+p{
+    text-align: center;
+}
+
+p button{
+    padding: 0.5em;
+    margin-left: 0.5em;
+}
+
+.destaque-login a{
+    text-decoration: none;    
+}
+
+.destaque-login a:hover{
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <script src="/assets/scripts/script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <form>
+        <fieldset>
+            <legend>Cadastrar</legend>
+            <input type="text" id="nome" name="nome" required placeholder="Nome:">
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+            <input type="username" id="username" name="usuario" required placeholder="Usuário:">
+            <input type="password" id="password" name="senha" required placeholder="Defina uma senha:">
+            <input type="password" id="confirmarSenha" name="confirmarSenha" required placeholder="Confirme sua senha">           
+            <input type="submit" value="Cadastrar">
+            <p id="erroValidacao"></p>
+            <p>Já tem uma conta? faça <span class="destaque-login"><a  href="/index.html">login</a></span></p>
+        </fieldset>
+    </form>
+
+
+</div>
+</body>
+</html>
